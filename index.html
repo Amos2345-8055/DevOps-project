@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DevOps Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="top-bar">
+    <h1>[ DEVOPS ] DASHBOARD</h1>
+    <div class="status">● LIVE <span id="time"></span></div>
+</div>
+
+<div class="tabs">
+    <span class="active">BUILD</span>
+    <span>DEPLOY</span>
+    <span>STATUS</span>
+</div>
+
+<div class="container">
+
+    <div class="card">
+        <h3>Build Status</h3>
+        <p id="build">SUCCESS</p>
+    </div>
+
+    <div class="card">
+        <h3>Last Deployment</h3>
+        <p id="deploy">Just Now</p>
+    </div>
+
+    <div class="card">
+        <h3>Version</h3>
+        <p id="version">v1.0</p>
+    </div>
+
+    <div class="card">
+        <h3>Environment</h3>
+        <p>Production</p>
+    </div>
+
+</div>
+
+<button onclick="deploy()">Deploy New Version</button>
+
+<script src="script.js"></script>
+</body>
+</html>

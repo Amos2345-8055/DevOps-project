@@ -1,0 +1,67 @@
+body {
+    background: radial-gradient(circle at top, #0a0f1c, #02050a);
+    color: #00eaff;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+}
+
+/* Top bar */
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid #00eaff33;
+}
+
+.status {
+    color: #00ff88;
+}
+
+/* Tabs */
+.tabs {
+    padding: 10px 20px;
+    border-bottom: 1px solid #00eaff33;
+}
+
+.tabs span {
+    margin-right: 20px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.tabs .active {
+    opacity: 1;
+    border-bottom: 2px solid #00eaff;
+}
+
+/* Cards */
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: rgba(0, 255, 255, 0.05);
+    border: 1px solid rgba(0, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+}
+
+/* Button */
+button {
+    margin: 20px;
+    padding: 10px 20px;
+    background: transparent;
+    border: 1px solid #00eaff;
+    color: #00eaff;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #00eaff;
+    color: black;
+}
