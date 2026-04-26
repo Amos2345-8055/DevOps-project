@@ -1,3 +1,5 @@
+ [Click here to view live project](https://amos2345-8055.github.io/DevOps-project/)
+ 
 Project Overview
 
 The DevOps Dashboard Web Application is a simple interactive single-page web project designed to simulate core DevOps concepts such as build status monitoring, deployment tracking, version control visualization, and real-time system updates.
